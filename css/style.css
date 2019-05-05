@@ -1,6 +1,9 @@
 
 /*Content*/
-
+body{
+  margin: 0;
+  padding: 0;
+}
 .content{
   margin: 10px;
   padding: 100px;
@@ -164,8 +167,26 @@
   position: relative;
   top: -10px;
 }
-
-
+.section{
+  width: 100%;
+  height:100vh;
+  background-size: cover;
+  
+}
+/*Scroll up button*/
+#topBtn{
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 22px;
+  width: 70px;
+  height: 70px;
+  border: none;
+  color: white;
+  background: 	#A9A9A9;
+  cursor: pointer;
+  border-radius: 6px;
+}
 
 
 @media screen and (max-width: 690px)
